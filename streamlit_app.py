@@ -12,7 +12,13 @@ pengeluaran = st.number_input("Masukkan pengeluaran", min_value=0)
 # Data training
 sample = [
     [20,1],[22,2],[25,2],[30,3],
-    [35,4],[40,5],[45,6],[50,7]
+    [35,4],[40,5],[45,6],[50,7],
+    
+    [21,1],[23,2],[26,2],[28,3],
+    [33,4],[38,5],[42,6],[48,7],
+    
+    [24,2],[27,3],[31,3],[36,4],
+    [41,5],[44,6],[47,7],[52,7]
 ]
 
 df = pd.DataFrame(sample, columns=["Umur", "Pengeluaran"])
